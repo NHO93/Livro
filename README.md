@@ -18,7 +18,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou env
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
+Este projeto é licenciado sob a ...
 
 ## Status do Projeto
 
