@@ -37,8 +37,8 @@ public class Main {
                     catalogo.adicionarLivro(novoLivro);
                     JOptionPane.showMessageDialog(null, "Livro adicionado com sucesso!");
                     break;
-
-                case 1:
+					
+                case 1: 
                     List<Livro> livros = catalogo.obterTodosLivros();
                     StringBuilder listaLivros = new StringBuilder("Lista de Livros:\n");
                     for (Livro livro : livros) {

@@ -16,11 +16,12 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
-                "titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", editora='" + editora + '\'' +
-                ", anoPublicacao=" + anoPublicacao +
-                '}';
+        return "\n----------------------------------------" +
+				"\nLivro:" +
+                "\nTitulo: " + titulo +
+                "\nAutor: " + autor +
+                "\nEditora: " + editora +
+                "\n Ano de Publicacao: " + anoPublicacao +
+			    "\n----------------------------------------";
     }
 }
