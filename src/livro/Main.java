@@ -9,7 +9,8 @@ public class Main {
         CatalogoLivros catalogo = new CatalogoLivros();
 
         while (true) {
-            String[] opcoes = {"Adicionar Livro", "Listar Livros", "Sair"};
+           //Opções 
+			String[] opcoes = {"Adicionar Livro", "Listar Livros", "Sair"};
             int escolha = JOptionPane.showOptionDialog(
                     null,
                     "Escolha uma opção:",
@@ -21,7 +22,8 @@ public class Main {
                     opcoes[0]);
 
             switch (escolha) {
-                case 0:
+                //Opção de cadastrar livro
+				case 0:
                     String titulo = JOptionPane.showInputDialog("Título do Livro:");
                     String autor = JOptionPane.showInputDialog("Autor do Livro:");
                     String editora = JOptionPane.showInputDialog("Editora do Livro:");
@@ -37,7 +39,7 @@ public class Main {
                     catalogo.adicionarLivro(novoLivro);
                     JOptionPane.showMessageDialog(null, "Livro adicionado com sucesso!");
                     break;
-					
+					//Opção Lista de livros
                 case 1: 
                     List<Livro> livros = catalogo.obterTodosLivros();
                     StringBuilder listaLivros = new StringBuilder("Lista de Livros:\n");
@@ -46,7 +48,7 @@ public class Main {
                     }
                     JOptionPane.showMessageDialog(null, listaLivros.toString());
                     break;
-
+					//Opção de sair do programa
                 case 2:
                     JOptionPane.showMessageDialog(null, "Encerrando o programa. Até logo!");
                     System.exit(0);
