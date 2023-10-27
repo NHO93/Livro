@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CatalogoLivros {
-    private List<Livro> livros;
+    private final List<Livro> livros;
 
     public CatalogoLivros() {
         this.livros = new ArrayList<>();
@@ -22,3 +22,4 @@ public class CatalogoLivros {
 		throw new UnsupportedOperationException("Not supported yet."); 
 	}
 }
+
