@@ -1,6 +1,6 @@
 # Catalogação de livros (sistema simples de biblioteca)
 
-## Linguagem utilizada: JAVA
+* Linguagem utilizada: JAVA
 
 
 ## Funcionalidades
