@@ -1,5 +1,8 @@
 package livro;
 	
+import livro.modulos.CatalogoLivros;
+import livro.modulos.Livro;
+
 import java.util.List;
 
 import javax.swing.JOptionPane;

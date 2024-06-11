@@ -1,4 +1,4 @@
-package livro;
+package livro.modulos;
 
 public class Livro {
     private String titulo;
@@ -16,11 +16,10 @@ public class Livro {
     @Override
     public String toString() {
         return "\n----------------------------------------" +
-				"\nLivro" +
                 "\nTitulo: " + titulo +
                 "\nAutor: " + autor +
                 "\nEditora: " + editora +
-                "\n Ano de Publicacao: " + anoPublicacao +
+                "\nAno de Publicacao: " + anoPublicacao +
 			    "\n----------------------------------------";
     }
 }
